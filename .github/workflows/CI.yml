@@ -59,6 +59,6 @@ jobs:
       - run: |
           julia --project=docs -e '
             using Documenter: DocMeta, doctest
-            using LibTiff
-            DocMeta.setdocmeta!(LibTiff, :DocTestSetup, :(using LibTiff); recursive=true)
-            doctest(LibTiff)'
+            using LibTIFF
+            DocMeta.setdocmeta!(LibTIFF, :DocTestSetup, :(using LibTIFF); recursive=true)
+            doctest(LibTIFF)'
