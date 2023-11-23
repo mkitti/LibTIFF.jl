@@ -1,6 +1,6 @@
-using LibTiff
+using LibTIFF
 using Test
 
-@testset "LibTiff.jl" begin
+@testset "LibTIFF.jl" begin
     # Write your tests here.
 end

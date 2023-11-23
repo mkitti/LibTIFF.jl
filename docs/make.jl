@@ -1,16 +1,16 @@
-using LibTiff
+using LibTIFF
 using Documenter
 
-DocMeta.setdocmeta!(LibTiff, :DocTestSetup, :(using LibTiff); recursive=true)
+DocMeta.setdocmeta!(LibTIFF, :DocTestSetup, :(using LibTIFF); recursive=true)
 
 makedocs(;
-    modules=[LibTiff],
+    modules=[LibTIFF],
     authors="Mark Kittisopikul <markkitt@gmail.com> and contributors",
-    repo="https://github.com/mkitti/LibTiff.jl/blob/{commit}{path}#{line}",
-    sitename="LibTiff.jl",
+    repo="https://github.com/mkitti/LibTIFF.jl/blob/{commit}{path}#{line}",
+    sitename="LibTIFF.jl",
     format=Documenter.HTML(;
         prettyurls=get(ENV, "CI", "false") == "true",
-        canonical="https://mkitti.github.io/LibTiff.jl",
+        canonical="https://mkitti.github.io/LibTIFF.jl",
         edit_link="main",
         assets=String[],
     ),
@@ -20,6 +20,6 @@ makedocs(;
 )
 
 deploydocs(;
-    repo="github.com/mkitti/LibTiff.jl",
+    repo="github.com/mkitti/LibTIFF.jl",
     devbranch="main",
 )

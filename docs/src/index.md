@@ -1,14 +1,14 @@
 ```@meta
-CurrentModule = LibTiff
+CurrentModule = LibTIFF
 ```
 
-# LibTiff
+# LibTIFF
 
-Documentation for [LibTiff](https://github.com/mkitti/LibTiff.jl).
+Documentation for [LibTIFF](https://github.com/mkitti/LibTIFF.jl).
 
 ```@index
 ```
 
 ```@autodocs
-Modules = [LibTiff]
+Modules = [LibTIFF]
 ```

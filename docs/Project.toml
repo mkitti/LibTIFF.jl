@@ -1,3 +1,3 @@
 [deps]
 Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
-LibTiff = "09104962-a794-47fe-b6ff-83bb82a230bf"
+LibTIFF = "09104962-a794-47fe-b6ff-83bb82a230bf"

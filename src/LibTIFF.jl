@@ -1,4 +1,4 @@
-module LibTiff
+module LibTIFF
 
 using Libtiff_jll
 export Libtiff_jll
