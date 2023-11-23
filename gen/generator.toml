@@ -1,0 +1,5 @@
+[general]
+library_name = "libtiff"
+output_file_path = "../src/LibTiff.jl"
+module_name = "LibTiff"
+jll_pkg_name= "Libtiff_jll"
