@@ -2377,4 +2377,14 @@ const TIFFLIB_MINOR_VERSION = 5
 
 const TIFFLIB_MICRO_VERSION = 1
 
+include("varargs.jl")
+
+# exports
+const PREFIXES = ["TIFF"]
+for name in names(@__MODULE__; all=true), prefix in PREFIXES
+    if startswith(string(name), prefix)
+        @eval export $name
+    end
+end
+
 end # module
